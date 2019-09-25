@@ -1,0 +1,9 @@
+1) How many elements are there in each C-style character string that stores a family or given name for the account? Why?
+Ans. There are forty one elements in character string last one is for null pointer and rest of the other for data to be stored. 
+
+2) Your class declares two member functions named set(...). In C, this would generate an error. Name the feature of C++ that allows this.
+Ans. Because of Function Overloading feature you can have multiple definition for the same function name in the same scope but definition must differ from each other by the types and the number of arguments. 
+
+3) What have you learned during this workshop?
+Ans. declaration of classes and objects and also I learnt how to privatize and access data in an object using member function.
+

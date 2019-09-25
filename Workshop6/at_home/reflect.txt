@@ -1,0 +1,10 @@
+1) Why does the copy assignment operator check for self-assignment before doing anything else?
+Ans. Because we lose our memory that during the allocation that's why it necessary for check self assignment.
+
+
+2) List how you avoided duplication of code.
+Ans. By using isEmpty() function in another function I avoided the duplication of code
+
+
+3) List what you have learned in completing this workshop.
+Ans. Through this operator I learnt how to define and use copy constructor and assignment operator also I learnt how to avoid duplication of code.

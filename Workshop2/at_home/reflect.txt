@@ -1,0 +1,11 @@
+1) Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory?
+Ans. Because we have to add another data in the exiting array and the previously allocated memory not enough for new data that is why.  
+
+2) The Kingdom structure stores the name of the kingdom in an array of characters. At the end of the program, We do not use the delete operator to deal-locate the memory occupied by the name. Why don’t we need to use the delete operator on this array itself? Explain.
+Ans. Because when program is closed, allocated memory will erased automatically we do not need to delete it.
+
+3) There are two display(...) function definitions. How does the compiler know which definition to call from your main function?
+Ans. there are two display functions but they have different number of arguments and when user enter input compiler will know which function should be called. 
+
+4) Explain what have you have learned in this workshop.
+Ans. I learnt two things from this workshop first is dynamic memory allocation and the second one is function overloading.

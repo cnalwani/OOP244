@@ -1,0 +1,42 @@
+
+
+
+
+
+1. What happens if you try to put your templated functions in Data.cpp? Does
+your source code compile if you move all functions to Data.h? Explain.
+
+Ans. if we put all function code in the .cpp file than it would not allow the compiler to see both the template and the function at the same time so it will give us an error during the compile time because compiler need to see both template code as well as the function code.
+
+2. Move one templated function into ws9_lab.cpp. Does it work now? Do you
+need to define the template function above main(), before it is used, or can
+you define it below main()?
+Ans. yes it will work if declare that function above the main.
+
+
+3. Could you have done this lab without templates, by just overloading your
+functions in Data.h to accept integer and double arguments? What is the
+advantage of using templates?
+
+Ans. The functions could have been implemented without templates but the code will become longer.
+Templates allow for dynamic parameter interpretations. By being able to accept a T type variable. The code can be cleaner, and can be used multiple types by different types.
+
+
+4. Are the following equivalent?
+template<class T>
+template<typename T>
+
+Ans. They're equivalent and interchangeable for most of the times, and some prefer typename because using the keyword class in that context seems confusing but they both generating same output.
+
+
+
+Quize 8 reflection 
+
+3. List the four types of polymorphism and briefly give a description as to how they are implemented in c++.
+Ans. Coercion - Many programming languages support the conversion of a value into another of a different data type. This kind of type conversions can be implicitly or explicitly made. Implicit conversion, which is also called coercion, is automatically done.
+
+Overloading polymorphism allows binding of function calls with the same identifier but different argument types to function definitions with correspondingly different parameter types.
+
+Inclusion polymorphism allows the multiplicity of member function definitions by selecting the definition from the set of definitions based on the object's type. 
+
+Parametric polymorphism allows function definitions that share identical logic independently of type. 

@@ -1,0 +1,17 @@
+1. What is a namespace? Explain its purpose.
+Ans. Namespace is a declarative region that assign scope to the identifiers such as types, functions, variables. In application, many times same identifiers used by developers in that case use of namespace prevent the conflicts that occur between the same name identifiers during the execution time.
+
+2. Why are header files needed? Explain.
+Ans. Header files are necessary as they divide program into small parts that decrease program's complexity so program can easily be read and understand. Declaring header files top of implementation files that make possible for developer to use functions and variable that declare in that header file.    
+
+3. In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you should never compile header files. 
+Ans. Because main function define in .cpp files and program start execution from main function that is why compile directed to the .cpp files. Header files are used to declare function prototypes and those functions can be used in another files by including header file on top of file.    
+
+4. Explain why you should never include .cpp files in another file.
+Ans. Because .cpp files are implementation files if we include .cpp files in several files in our program then compiler will try to compile cpp files multiple times and then it generate an error because same kind of methods implement no of times therefore cpp files should never include in another files.  
+
+5. Explain in your own words what have you learned on this workshop.
+Ans. In this workshop, I learned basic C++ syntaxes, purpose of using namespace and the concept of modular programming. 
+
+
+

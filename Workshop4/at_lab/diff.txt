@@ -1,0 +1,10 @@
+
+In line number 20 of your output:
+The output should be:
+No passenger!
+But your output is: 
+No passenegr!
+         ^
+---------|
+Professor's character ASCII code: hex(67), dec(103)
+un-matched character ASCII code: hex(65), dec(101)

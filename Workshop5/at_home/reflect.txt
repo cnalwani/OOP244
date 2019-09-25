@@ -1,0 +1,14 @@
+1. The operator + returns a Fraction object. Explain why this operator should not return a reference to a Fraction object.
+Ans. if we pass reference to object it would go through the constructor then it impossible to call reduce function because of reduce function call in constructor.  
+
+2. List the temporary objects in the tester module.
+Ans. a and c are the temporary object because their put into safe state at the end.
+
+3. List the simplifications that you made to your class to minimize duplication.
+Ans. I  minimize the redundancy of code by using isEmpty() function in other functions.
+
+4. Explain what you have learned in this workshop.
+Ans. I learnt from this workshop how to overload an operator as a member function and access current object within member function.
+
+
+

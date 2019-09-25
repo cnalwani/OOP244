@@ -1,0 +1,34 @@
+1.	What is the difference between an abstract base class and a concrete class?
+Ans. Abstract classes usually have partial or no implementation. On the Other hand, concrete classes always have full implementation of its behaviour. Unlike concrete classes, abstract class can't be instaniated. Therefore abstract classes have to be extended in order to make them useful.
+
+2.	Identify the functions that shadow functions of the same name in your solution?
+Ans.	debit and credit functions shadow function of the same name.
+
+3.	Explain what have you learned in this workshop.
+Ans.	I learnt how to use pure virtual function and abstract base class.
+
+
+
+Quiz 6 Reflection
+
+
+3. What is shadowing in context of derived class.
+Ans. A member function of a derived class shadow the base class member function with the same identifier. To access the base class version of a member function that a derived class version has shadowed, we use scope resolution.
+
+
+
+Quiz 7 Reflection
+
+
+2. what does the virtual keyword in c++?.
+Ans. Virtual function is a functon in base class, which is overrided in the derived class, and which tells the complier to perform late binding on this function.
+
+3. Give an example of abstract base class.
+Ans. An abstract base class contain atleast one pure virtual function.
+
+class Person
+{
+	public:
+		virtual void display();
+
+}

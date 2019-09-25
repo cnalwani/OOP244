@@ -1,0 +1,16 @@
+1) What is a safe empty state? Could you define another state as the safe empty state?
+Ans. at the beginning of the implementation file we define constructor for initialize object in safe empty state to prevent from garbage collection. also in another empty state we initialize variable in user defined constructor. 
+
+2) Describe how you have minimized code duplication.
+Ans. I minimized my code by calling isEmpty() function in display function. 
+
+3) Explain why the canTravelWith(...) member function can access the pri-vate data of the object referenced in its parameter.
+Ans. since this function member of class, it has the right to access the private data of any objects in class type. that means it can access the private data both: in its object and in the object referenced  in its parameter. 
+
+4) What statement do you need to add to ensure that the strncpy(...) func-tion executes correctly?
+Ans. This function will not ensure that the null terminator will be added at the end of the string, we have to provide the code for that purpose. 
+
+5) Explain what you have learned in this workshop.
+Ans. From this workshop I learnt how to initialize object in empty state at creation time or at specific time in the program by calling a user defined constructor.
+
+
